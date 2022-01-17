@@ -1,5 +1,6 @@
 body {
     color: black;
+    background-color: rgb(190, 194, 197);
 }
 
 nav {
@@ -7,7 +8,7 @@ nav {
 }
 
 #logo{
-	max-width: 80%;
+	max-width: 100%;
 	margin:10px;
 }
 
@@ -19,7 +20,7 @@ header{
 	position: fixed;
 	top: 0px;
 	border: 1px solid black;
-	background-color: rgb(238, 238, 238);
+	background-color: rgb(73, 71, 71);
 }
 
 header li {
@@ -35,13 +36,13 @@ footer{
 	position: relative;
 	bottom: 0;
 	width: 100%;
-	background-color: rgb(238, 238, 238);
+	background-color: rgb(73, 71, 71);
 }
 
 .footer-dark {
 	margin: auto;
 	padding: 1em;
-	color:#282d32;
+	color:#ececec;
 	border: 1px solid black;
   }
 
@@ -74,7 +75,6 @@ footer{
 	border-radius:50%;
 	box-shadow:0 0 0 1px rgba(0, 0, 0, 0.4);
 	margin: 0 8px;
-	
 	opacity: 0.75;
 }
 
