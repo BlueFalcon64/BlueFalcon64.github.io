@@ -22,7 +22,7 @@ function addComment(nom, texte) {
 
     const date = document.createElement('i')
     date.classList.add('mb-2','border-bottom')
-    date.append("le "+jour+"/"+mois+"/"+annee+" à "+heure+" heure "+minute+" minutes ")
+    date.append(" Le "+jour+"/"+mois+"/"+annee+" à "+heure+" h "+minute)
 
     const commentaireParagraphe = document.createElement('p')
     commentaireHeader.append(nom)
