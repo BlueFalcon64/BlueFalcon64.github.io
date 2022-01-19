@@ -22,7 +22,7 @@
             <ul>
                 <li><a href="#Accueil">Accueil</a></li>
                 <li><a href="#Apropos">À propos</a></li>
-                <li><a href="#Services">Services</a></li>
+                <li><a href="#Services">Offres</a></li>
                 <li><a href="#Galerie">Galerie</a></li>
                 <li><a href="#Contact">Contact</a></li>
                 <li><a href="#Blog">Blog</a></li>
@@ -45,7 +45,7 @@
     <section id="">
         <div>
             <h3 id="Apropos">Pourquoi choisir nous?</h3>
-            <div>
+            <div id="Text1">
                 <p>DigitalConsultant (DC) est une entreprise pluridisciplinaire spécialisée dans la transition numérique des petites et moyennes entreprises. Nous sommes  composés  de  professionnels  indépendants  expérimentés  qui collaborent régulièrement ensemble.    
                 </p>
                 <br>
@@ -62,12 +62,14 @@
         
     </section>
     <section><h3 id="Services">Nos offres</h3>
+        <div id="SousService">
+        <p>Voici nos trois offres principal</p>
         <ul>
             <li><h4>Phase d'audit</h4> <p>Ici nous récoltons un maximum d'informations sur votre entreprise, nous prenons le temps avec vous d'identifier vos difficultés et vos facilités ainsi que les réalités de gestion courante auxquelles vous êtes confrontées. Ceci afin de vous orienter vers la solution dont vous avez réellement besoin.</p></li>
             <li><h4>Phase de conseil</h4> <p>À la suite de la phase d'audit seront identifiées les priorités en matière de conseil et de conception. À cette étape un premier bilan est effectué dans lequel nous présentons les résultats de l'audit et émettons des conseils pour la phase de conception.</p></li>
             <li><h4>Phase de conception</h4><p>La phase de conception peut soit être assurée par nos équipes soit être déléguée à un de nos nombreux partenaires au Canada en Espagne et en France et prochainement aux États-Unis. Nous proposons des solutions adaptées à tous types de clientèle et tous budgets confondus. Seulement nous sommes spécialistes dans les méthodes agiles et privilégions une approche sur mesure dans notre conception en interne. C'est pourquoi nous n'hésiterons pas à vous réorienter vers des solutions clefs en main ou vous dire de manière impartiale si les opportunités que vous avez identifiées valent réellement la peine pour votre entreprise.</p></li>
         </ul>
-        
+        </div>
     </section>
     <section>
         <h3>Nos partenaires</h3><div class="bandeau">
@@ -117,10 +119,86 @@
 </section>
     </section>
     <section>
-        <h3 id="Contact">Contacter</h3>
+  <h1>
+            Nous Contacter 
+            <button>
+                <i class="far fa-newspaper"></i> S'abonner a la newsletter
+            </button> 
+        </h1>
+        
+        <ul>
+            <li>
+                Votre Nom
+                <div>
+                    <input size="15" placeholder="Prénom">                               
+                    <input size="15" placeholder="Nom"> 
+                </div>
+            </li>
+            <li>
+                E-mail :
+                <div>
+                    <input size="32" placeholder="ex: myname@example.com" >
+                </div>
+            </li>
+            <li>
+                Sujet :
+                <div>
+                    <input size="20">
+                </div>
+            </li>
+            <li>
+                Message :
+                <div>
+                    <textarea cols="60" rows="9" ></textarea>
+                </div>
+            </li>
+
+
+            <li>
+                <div>
+                    <button>
+                    Soumettre
+                    </button>
+                </div>
+            </li>
+        </ul>
     </section>
     <section>
         <h3 id="Blog">Blog</h3>
+        <div id="comments-list">
+        <article id="comment-1" class="comment border rounded p-2 mb-3">
+            <header class="mb-2 border-bottom">
+                <strong class="d-block">Georges Abitbol</strong>
+                <time datetime="2021-11-29 12:29:34" class="d-block fst-italic">le 29 novembre 2021 à 12h29</time>
+            </header>
+            <p>
+                Monde de merde!
+            </p>
+        </article>
+        <article id="comment-2" class="comment border border-dark rounded p-2 mb-3">
+            <header class="mb-2 border-bottom">
+                <strong class="d-block">M. Callaghan</strong>
+                <time datetime="2021-11-29 14:13:42" class="d-block fst-italic">le 29 novembre 2021 à 14h13</time>
+            </header>
+            <p>
+                L'homme le plus classe du monde meurt et ses dernières paroles sont "monde de merde", pourquoi il a dit ça?
+            </p>
+        </article>
+    </div>
+
+
+    <form action="#" method="post" onSubmit="return false;" id="new-comment">
+        <div class="mb-3 d-flex align-items-center">
+            <label for="nom" class="form-label me-2">Nom</label>
+            <input type="text" class="form-control" id="nom" name="nom">
+        </div>
+        <div class="mb-3">
+            <textarea class="form-control" id="message-content" placeholder="Votre message ici..." rows="3"></textarea>
+        </div>
+        <div class="mb-3">
+            <input type="submit" class="btn btn-primary" value="Envoyer" onclick="onReceived()" >
+        </div>
+    </form>
     </section>
 
 
@@ -145,6 +223,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="Bannière défilante.js"></script>
+        <script src="newcomment.js"></script>
 </body>
 
 </html>
