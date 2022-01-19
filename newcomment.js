@@ -31,7 +31,7 @@ function addComment(nom, texte) {
     
     
     
-    commentaireHeader.append( "le "+jour+"/"+mois+"/"+annee+" à "+heure+" heure "+minute+" minutes ")
+    commentaireHeader.append( " Le "+jour+"/"+mois+"/"+annee+" à "+heure+" h "+minute)
     numeroCommentaire++
 }
 
