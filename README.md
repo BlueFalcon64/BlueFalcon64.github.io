@@ -17,7 +17,6 @@ https://bluefalcon64.github.io/website-digital-consultant/
 + VisualStudioCode
 + Google
 
-## Responsive
-## Capture d'écrant
+
 ## A Venir :
 + De nouvelles fonctionnalitées
