@@ -21,8 +21,23 @@
             "À la suite de la phase d'audit seront identifiées les priorités en matière de conseil et de conception. À cette étape un premier bilan est effectué dans lequel nous présentons les résultats de l'audit et émettons des conseils pour la phase de conception."
             "Phase de conception"
             "La phase de conception peut soit être assurée par nos équipes soit être déléguée à un de nos nombreux partenaires au Canada en Espagne et en France et prochainement aux États-Unis. Nous proposons des solutions adaptées à tous types de clientèle et tous budgets confondus."
-        ] }
-    "galerie":{}
+        ] },
+    "partenaires" : [
+        "Nos partenaires"
+    ],
+
+    "galeries": "Nottre galerie",
+    "contacte": [
+        "Nous Contacter"
+        "Votre nom"
+        "Email :"
+        "Sujet :"
+        "Message :"
+        "Soumettre"
+        "S'abonner a la newsletter"
+    ],
+    "Blog" : "Blog"
+     
 
 
    
