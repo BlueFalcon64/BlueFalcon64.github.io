@@ -202,11 +202,6 @@
       100% {transform: translateX(calc(-250px * 9));}
   }
   
-  .jpeg{
-    width: 200px;
-      height: 150px;
-  }
-  
   .logo {
       height: 250px;
       width: 250px;
