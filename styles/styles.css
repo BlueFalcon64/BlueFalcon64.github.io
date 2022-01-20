@@ -4,7 +4,8 @@ body {
 }
 
 .only-center {
-  margin: 5%;
+margin: 5%;
+margin-top: 4.5%;
 }
 
 body header{
@@ -58,32 +59,39 @@ nav {
 }
 
 .box {
-    flex-direction: column;
-    color: #ebfaec;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 400px;
-    height: 150px;
-    background-color: #40444b;
-    position: relative;
-    border-radius: 25%;
+  flex-direction: column;
+  color: #ebfaec;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  height: 50%;
+  background-color: #40444b;
+  position: relative;
+  border-radius: 15%;
+}
+
+.box1{
+  display: flex;
+  justify-content: center;
+  font-size: 400%;
+  margin-top: 15%;
+  margin-bottom: 8%;
 }
 
 .box::before,
 .box::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    background: linear-gradient(45deg, #128d5a, #199688, #0e7894, #128d5a, #199688, #0e7894);
-    width: 100%;
-    height: 100%;
-    transform: scale(1);
-    z-index: -1;
-    background-size: 500%;
-    animation: animate 10s infinite;
-    border-radius: 25%
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(45deg, #128d5a, #199688, #0e7894, #128d5a, #199688, #0e7894);
+  width: 100%;
+  height: 100%;
+  transform: scale(1);
+  z-index: -1;
+  background-size: 500%;
+  animation: animate 10s infinite;
+  border-radius: 15%
 }
 
 .box::after {
