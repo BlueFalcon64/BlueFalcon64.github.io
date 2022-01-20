@@ -25,7 +25,7 @@ header{
 	top: 0;
 	background-color: #36393f;
 	z-index: 1;
-}
+}	
 
 header::before,
 header::after {
@@ -33,13 +33,13 @@ header::after {
   position: absolute;
   bottom: 0;
   left: 0;
-  background: linear-gradient(45deg, #ff0000, #00f0f0, #00ff00, #0000ff, #ff0000, #00f0f0, #00ff00, #0000ff, #f00f0f);
+  background: linear-gradient(45deg, #128d5a, #199688, #0e7894, #128d5a, #199688, #0e7894);
   width: 100%;
   height: 1.7%;
   transform: scale(2);
   z-index: -1;
   background-size: 300%;
-  animation: animate 15s infinite;
+  animation: animate 2s infinite;
 }
 
 @keyframes animate {
@@ -66,6 +66,7 @@ header li {
     height: 150px;
     background-color: #40444b;
     position: relative;
+    border-radius: 25%;
   }
 
 .box::before,
@@ -74,13 +75,14 @@ header li {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(45deg, #ff0000, #00f0f0, #00ff00, #0000ff, #ff0000, #00f0f0, #00ff00, #0000ff, #f00f0f);
+  background: linear-gradient(45deg, #128d5a, #199688, #0e7894, #128d5a, #199688, #0e7894);
   width: 100%;
   height: 100%;
   transform: scale(1);
   z-index: -1;
   background-size: 500%;
   animation: animate 10s infinite;
+  border-radius: 25%
 }
 
 .box::after {
@@ -105,13 +107,13 @@ footer::after {
   position: absolute;
   top: 0;
   left: 0;
-  background: linear-gradient(45deg, #ff0000, #00f0f0, #00ff00, #0000ff, #ff0000, #00f0f0, #00ff00, #0000ff, #f00f0f);
+  background: linear-gradient(45deg, #128d5a, #199688, #0e7894, #128d5a, #199688, #0e7894);
   width: 66.65%;
   height: 4%;
   transform: scale(2);
   z-index: -1;
   background-size: 300%;
-  animation: animate 15s infinite;
+  animation: animate 2s infinite;
 }
 
 @keyframes animate {
@@ -129,7 +131,6 @@ footer::after {
 	list-style: none;
 	line-height: 1.6;
 	font-size: 14px;
-	
 	text-align: center;
 	opacity: 0.6;
 }
