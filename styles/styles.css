@@ -3,6 +3,12 @@ body {
     background-color: #40444b;
 }
 
+.only-center {
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-right: 5%;
+}
+
 body header{
     text-align: center;
 }
@@ -195,8 +201,4 @@ footer::after {
 img:hover {
     transform: translateZ(20px);
     transition: transform 1s;
-}
-
-.only-center {
-    margin-left: 5%;
 }
