@@ -4,7 +4,7 @@ let request = new XMLHttpRequest();
 
 
 
-request.open('GET', "");
+request.open('GET', "https://github.com/BlueFalcon64/website-digital-consultant/blob/main/Json.Json");
 
 
 request.responseType = 'json';
