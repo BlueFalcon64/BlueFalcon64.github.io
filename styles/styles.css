@@ -202,3 +202,8 @@ img:hover {
     transform: translateZ(20px);
     transition: transform 1s;
 }
+
+.foto{
+  width: 50px;
+  height: 100%;
+}
