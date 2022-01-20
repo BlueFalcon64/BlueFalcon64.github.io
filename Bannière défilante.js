@@ -1,4 +1,4 @@
-const Elements = [ "titre","soustitre","about-title","text1","service","SousService"]
+const Elements = [ "titre","soustitre","apropos","text1","offre","Services","3offre","partenaires","galeries","contacte","blog"]
 let request = new XMLHttpRequest();
 
 
